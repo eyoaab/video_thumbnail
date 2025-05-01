@@ -22,6 +22,7 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+    namespace "com.github.eyob.video_thumbnail_fork"
     compileSdkVersion 33
 
     defaultConfig {
